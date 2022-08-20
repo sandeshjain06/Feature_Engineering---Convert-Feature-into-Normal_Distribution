@@ -19,19 +19,19 @@ Feature Transformation : Transforming the features distribution into normal dist
 Types of Feature Transformation
 
 
-1) Log Transform : If data is right skewed data then use it.
+    1) Log Transform : If data is right skewed data then use it.
 
-2) Reciprocal Transform 
+    2) Reciprocal Transform 
 
-3) Power Transform - square , square root : If data is left skewed data then go with square power transform.
+    3) Power Transform - square , square root : If data is left skewed data then go with square power transform.
 
-4) Box-Cox Transform
+    4) Box-Cox Transform
 
-5) Yeo-Johnson Transform.
+    5) Yeo-Johnson Transform.
 
 
-Function Tranformer   - Log Transform   /  Reciprocal Transform   /  Power Transform - square , square root
+    Function Tranformer   - Log Transform   /  Reciprocal Transform   /  Power Transform - square , square root
 
-Custom Transformer    - Power Transform / Box-Cox Transform : 1. values > 0 , 2.values cannot be negative / Yeo-Johnson Transform : Overcome problem of box-cox transform.
+    Custom Transformer    - Power Transform / Box-Cox Transform : 1. values > 0 , 2.values cannot be negative / Yeo-Johnson Transform : Overcome problem of box-cox transform.
 
 
